@@ -1,3 +1,47 @@
+#1
+print("hello world")
+#2
+l='Hello,World'
+print(l)
+#3
+a='linwenjun'
+print(a.lower(),a.upper(),a.capitalize())
+#4
+name=' John Smith '
+a1=name.lstrip()
+a2=name.rstrip()
+a3=name.replace(" ","")
+print(a1+'\n'+a2+'\n'+a3)
+#5
+print(10+10)
+print(30-10)
+print(2*10)
+print(40//2)
+#6
+for x in range(20):
+	print(x+1)
+#7
+L = []
+for x in range(1000):
+    x = x + 1
+    if x % 4 == 0:
+        L.append(x)
+print("L=", L)
+for x in L:
+    print(x)
+#8
+L = []
+for x in range(20):
+    x = x + 1
+    s = x * x * x
+    L.append(s)
+print("L=", L)
+for x in L:
+    print(x)
+#9
+for x in range(1,10):
+	for y in range(x,10):
+		print(x,'*',y,'=',x*y,'\t',end='')
 #10
 num =int(input("请输入："))
 if num %2==0:
